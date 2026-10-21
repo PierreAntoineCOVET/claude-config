@@ -11,7 +11,7 @@ Installed as symlinks from `~/.claude/skills/<name>` to `skills/<name>`, so edit
 ## TODO
 
 - [x] **Remove the commit step from `implement`**: `skills/implement/SKILL.md` still ends with "Commit your work to the current branch".
-- [ ] **Initialize the git repository**: `git init` has not been run yet.
+- [x] **Initialize the git repository**: published to https://github.com/PierreAntoineCOVET/claude-config.
 - [x] **Install the skills**: Claude Code won't see them until they are linked or copied into `~/.claude/skills/`.
 - [x] **`setup-matt-pocock-skills` is not included**: `code-review` expects the issue tracker config it creates, so without it, it will ask where the spec is or tell you to run setup.
 - [x] **Resolve the `code-review` name clash**: it keeps its upstream name, which clashes with the built-in `/code-review` skill once installed.
